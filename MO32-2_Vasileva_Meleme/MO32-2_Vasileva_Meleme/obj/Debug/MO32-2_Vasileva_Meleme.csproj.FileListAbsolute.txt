@@ -1,0 +1,10 @@
+Z:\Neroseti\MO32-2_Vasileva_Meleme\MO32-2_Vasileva_Meleme\bin\Debug\MO32-2_Vasileva_Meleme.exe.config
+Z:\Neroseti\MO32-2_Vasileva_Meleme\MO32-2_Vasileva_Meleme\bin\Debug\MO32-2_Vasileva_Meleme.exe
+Z:\Neroseti\MO32-2_Vasileva_Meleme\MO32-2_Vasileva_Meleme\bin\Debug\MO32-2_Vasileva_Meleme.pdb
+Z:\Neroseti\MO32-2_Vasileva_Meleme\MO32-2_Vasileva_Meleme\obj\Debug\MO32-2_Vasileva_Meleme.csproj.AssemblyReference.cache
+Z:\Neroseti\MO32-2_Vasileva_Meleme\MO32-2_Vasileva_Meleme\obj\Debug\MO32_2_Vasileva_Meleme.Properties.Resources.resources
+Z:\Neroseti\MO32-2_Vasileva_Meleme\MO32-2_Vasileva_Meleme\obj\Debug\MO32-2_Vasileva_Meleme.csproj.GenerateResource.cache
+Z:\Neroseti\MO32-2_Vasileva_Meleme\MO32-2_Vasileva_Meleme\obj\Debug\MO32-2_Vasileva_Meleme.csproj.CoreCompileInputs.cache
+Z:\Neroseti\MO32-2_Vasileva_Meleme\MO32-2_Vasileva_Meleme\obj\Debug\MO32-2_Vasileva_Meleme.exe
+Z:\Neroseti\MO32-2_Vasileva_Meleme\MO32-2_Vasileva_Meleme\obj\Debug\MO32-2_Vasileva_Meleme.pdb
+Z:\Neroseti\MO32-2_Vasileva_Meleme\MO32-2_Vasileva_Meleme\obj\Debug\MO32_2_Vasileva_Meleme.FormMain.resources
