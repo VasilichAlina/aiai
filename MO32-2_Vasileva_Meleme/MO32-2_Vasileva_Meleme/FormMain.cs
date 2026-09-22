@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace MO32_2_Vasileva_Meleme
 {
@@ -46,11 +47,30 @@ namespace MO32_2_Vasileva_Meleme
 
         private void buttonSaveTrainSemp_Click(object sender, EventArgs e)
         {
+            string path = AppDomain.CurrentDomain.BaseDirectory + "train.txt";
+            string tmpStr = numericUpDownNesAns.Value.ToString();
 
+            for (int i=0; i<inputPixels.Length; i++)
+            {
+                tmpStr += " " + inputPixels[i].ToString();
+            }
+            tmpStr += "\n"; //
+
+            File.AppendAllText(path, tmpStr);
         }
 
         private void buttonSaveTestSemp_Click(object sender, EventArgs e)
         {
+            string path= AppDomain.CurrentDomain.BaseDirectory + "test.txt";
+            string tmpStr = numericUpDownNesAns.Value.ToString();
+
+            for (int i = 0; i < inputPixels.Length; i++)
+            {
+                tmpStr += " " + inputPixels[i].ToString();
+            }
+            tmpStr += "\n"; //
+
+            File.AppendAllText(path, tmpStr);
 
         }
     }

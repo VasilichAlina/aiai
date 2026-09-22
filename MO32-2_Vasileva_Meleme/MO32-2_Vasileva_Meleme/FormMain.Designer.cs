@@ -231,7 +231,7 @@ namespace MO32_2_Vasileva_Meleme
             // 
             this.buttonSaveTrainSemp.Location = new System.Drawing.Point(333, 354);
             this.buttonSaveTrainSemp.Name = "buttonSaveTrainSemp";
-            this.buttonSaveTrainSemp.Size = new System.Drawing.Size(75, 23);
+            this.buttonSaveTrainSemp.Size = new System.Drawing.Size(117, 24);
             this.buttonSaveTrainSemp.TabIndex = 16;
             this.buttonSaveTrainSemp.Text = "Сохр обуч";
             this.buttonSaveTrainSemp.UseVisualStyleBackColor = true;
@@ -241,7 +241,7 @@ namespace MO32_2_Vasileva_Meleme
             // 
             this.buttonSaveTestSemp.Location = new System.Drawing.Point(333, 384);
             this.buttonSaveTestSemp.Name = "buttonSaveTestSemp";
-            this.buttonSaveTestSemp.Size = new System.Drawing.Size(75, 23);
+            this.buttonSaveTestSemp.Size = new System.Drawing.Size(117, 23);
             this.buttonSaveTestSemp.TabIndex = 17;
             this.buttonSaveTestSemp.Text = "Сохр Тест";
             this.buttonSaveTestSemp.UseVisualStyleBackColor = true;
@@ -249,14 +249,14 @@ namespace MO32_2_Vasileva_Meleme
             // 
             // numericUpDownNesAns
             // 
-            this.numericUpDownNesAns.Location = new System.Drawing.Point(298, 354);
+            this.numericUpDownNesAns.Location = new System.Drawing.Point(456, 358);
             this.numericUpDownNesAns.Maximum = new decimal(new int[] {
             9,
             0,
             0,
             0});
             this.numericUpDownNesAns.Name = "numericUpDownNesAns";
-            this.numericUpDownNesAns.Size = new System.Drawing.Size(29, 20);
+            this.numericUpDownNesAns.Size = new System.Drawing.Size(30, 20);
             this.numericUpDownNesAns.TabIndex = 18;
             // 
             // FormMain
