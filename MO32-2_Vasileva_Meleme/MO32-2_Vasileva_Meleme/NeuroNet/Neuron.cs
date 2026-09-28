@@ -45,6 +45,34 @@ namespace MO32_2_Vasileva_Meleme.NeuroNet
                     output = LeakyReLU(sum);
                     derivative = LeakyReLU_Derivativator(sum);
                     break;
+
+                case NeuronType.Output:
+                    output= Exp(sum);
+                    break;
+            }
+        }
+        private double LeakyReLU(double x)
+        {
+            if (x >= 0)
+            {
+                return x;
+            }
+            else
+            {
+                return a * x;
+            }
+        }
+
+        // Производная функции активации LeakyReLU
+        private double LeakyReLU_Derivativator(double x)
+        {
+            if (x >= 0)
+            {
+                return 1.0d;
+            }
+            else
+            {
+                return a;
             }
         }
     }
