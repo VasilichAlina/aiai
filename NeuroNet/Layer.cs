@@ -52,5 +52,22 @@ namespace MO32_2_Vasileva_Meleme.NeuroNet
         {
             return new double[1, 1];
         }
+if (File.Exisist(pathFileWeights))
+    Weights= WeightInitialize(MemoryMode.GET, pathFileWeights);
+        else
+        {
+            Directory.CreateDirectory(pathDirWeights);
+            Weights= WeightInitialize(MemoryMode.INIT, pathFileWeights);
+        }
+
+        for(int i=0; i<non; i++)
+        {
+            double[] tmp_weights = new double[nopn +1];
+            for (int j=0; j<nopn+1; j++)
+            {
+                tmp_weights[j]=Weights[i,j];
+            }
+            neorons[i]=new Neuron(tmp_weights, nt);
+        }
     }
 }
