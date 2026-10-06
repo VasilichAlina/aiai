@@ -45,9 +45,8 @@ namespace MO32_2_Vasileva_Meleme.NeuroNet
                     output = LeakyReLU(sum);
                     derivative = LeakyReLU_Derivativator(sum);
                     break;
-
                 case NeuronType.Output:
-                    output= Exp(sum);
+                    output = Exp(sum);
                     break;
             }
         }
